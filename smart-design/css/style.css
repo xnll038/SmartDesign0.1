@@ -1,0 +1,45 @@
+/* ----------------------------- binary ----------------------------- */
+
+.main__binary {
+}
+
+.binary {
+}
+
+.binary__bg {
+
+}
+.binary__bg img{
+    width: 100%;
+    min-height: 900px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.binary__container {
+
+}
+
+.binary__body {
+}
+
+.binary__logo {
+}
+
+.binary__title {
+}
+
+.binary__sub-title {
+}
+
+.binary__line {
+}
+
+.binary__button {
+}
+
+.binary__arrow {
+}
+
+/* ----------------------------- binary ----------------------------- */
