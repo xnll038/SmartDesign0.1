@@ -1,8 +1,9 @@
+/* ======================= binary ======================= */
 .main__binary {
 }
 
 .binary {
-    background: url("../img/slider/background.png") no-repeat center;
+    background: url("../img/slider/background.png") center top;
     height: 100vh;
 
     display: flex;
@@ -31,6 +32,7 @@
     position: relative;
     padding: 0 0 45px 0;
 }
+
 .binary__text::after {
     content: '';
     position: absolute;
@@ -73,6 +75,7 @@
     -ms-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
 }
+
 .binary__button button:hover {
     background-color: #ffffff;
     color: #000000;
@@ -86,6 +89,26 @@
 }
 
 .binary__arrow {
+    cursor: pointer;
+}
+
+
+@media (min-height: 560px) {
+    .binary__arrow {
+        position: relative;
+        animation: arrowsAnim 2s infinite ease;
+    }
+    @keyframes arrowsAnim {
+        0% {
+            top: 0;
+        }
+        50% {
+            top: 20px;
+        }
+        100% {
+            top: 0;
+        }
+    }
 }
 
 @media (max-width: 479px) {
@@ -93,3 +116,5 @@
         font-size: 28px;
     }
 }
+
+/* ======================= binary ======================= */
