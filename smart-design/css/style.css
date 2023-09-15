@@ -1,36 +1,42 @@
-/* ----------------------------- binary ----------------------------- */
-
 .main__binary {
 }
 
 .binary {
-}
+    background: url("../img/slider/background.png") no-repeat center;
+    height: 100vh;
 
-.binary__bg {
-
-}
-.binary__bg img{
-    width: 100%;
-    min-height: 900px;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
+    display: flex;
 }
 
 .binary__container {
-
+    display: flex;
 }
 
 .binary__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    text-align: center;
 }
 
 .binary__logo {
+
+}
+
+.binary__text {
+    color: #ffffff;
+    letter-spacing: 0.2em;
 }
 
 .binary__title {
+    font-size: 34px;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
 }
 
 .binary__sub-title {
+    font-size: 26px;
 }
 
 .binary__line {
@@ -39,7 +45,37 @@
 .binary__button {
 }
 
+.binary__button button {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    padding: 8px 30px;
+
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.binary__button button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000;
+
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+
 .binary__arrow {
 }
 
-/* ----------------------------- binary ----------------------------- */
+@media (max-width: 479px) {
+    .binary__title {
+        font-size: 28px;
+    }
+}
