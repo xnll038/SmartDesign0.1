@@ -60,6 +60,12 @@ button::-moz-focus-inner {
     border: 0;
 }
 
+hr {
+    width: 100vw;
+    height: 2px;
+    background-color: #F2F2F2;
+}
+
 a,
 a:visited {
     text-decoration: none;
@@ -100,10 +106,11 @@ h6 {
 
 main {
     flex: 1 1 100%;
+    overflow: hidden;
 }
 
 [class*="container"] {
-    max-width: 1120px;
+    max-width: 1130px;
     margin: 0 auto;
     padding: 0 15px;
 }

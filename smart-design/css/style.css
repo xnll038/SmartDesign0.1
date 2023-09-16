@@ -13,6 +13,7 @@
     display: flex;
 }
 
+
 .binary__body {
     display: flex;
     flex-direction: column;
@@ -118,3 +119,49 @@
 }
 
 /* ======================= binary ======================= */
+
+/* ======================= menu ======================= */
+
+.main__menu {
+}
+
+.menu {
+}
+
+.menu__container {
+}
+
+.menu__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    padding: 20px 0;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu__link {
+    color: #000;
+    font-size: 15px;
+}
+
+.menu__link_active {
+    color: #ada074;
+}
+
+@media (max-width: 479px) {
+    .menu__list {
+        gap: 10px;
+    }
+    .menu__link {
+        font-size: 14px;
+    }
+}
+
+/* ======================= menu ======================= */
